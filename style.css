@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Oooh+Baby&family=Splash&display=swap');
+
+.myalert {
+    background: linear-gradient(purple, orange);
+    color: orange;
+    font-family: 'Oooh Baby', cursive;
+    /* font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+
+}
+
+.myfont {
+    font-family: 'Oooh Baby', cursive !important;
+}
+
+.hhh {
+    font-size: 3rem;
+    font-weight: bold;
+    animation: colorfultext 12s linear infinite 0s;
+}
+
+#changingcolors {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    animation: colorfultext 15s linear infinite 0s;
+}
+
+@keyframes colorfultext {
+    10% {
+        color: rgb(6, 6, 141)
+    }
+
+    ;
+
+    20% {
+        color: rgb(11, 240, 11)
+    }
+
+    ;
+
+    30% {
+        color: rgb(252, 252, 4)
+    }
+
+    ;
+
+    40% {
+        color: rgb(230, 180, 180)
+    }
+
+    ;
+
+    50% {
+        color: brown
+    }
+
+    ;
+
+    60% {
+        color: rgb(11, 241, 241)
+    }
+
+    ;
+
+    70% {
+        color: rgb(97, 5, 97)
+    }
+
+    ;
+
+    80% {
+        color: red
+    }
+
+    ;
+
+    90% {
+        color: rgb(4, 4, 109)
+    }
+
+    ;
+
+    100% {
+        color: green
+    }
+
+    ;
+}
+
+.mynav {
+    background: linear-gradient(orange, purple) !important;
+
+    padding: 0 !important;
+
+
+
+}
+
+.body {
+    background-color: orange;
+    overflow-x: hidden;
+
+}
+
+.navmy {
+    background: linear-gradient(purple, orange) !important;
+
+}
+
+.paddingTop {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.navmy:hover {
+    background: linear-gradient(orange, purple) !important;
+}
+
+.animationclass {
+    animation: colorfultext 7s ease-in-out infinite 0s;
+}
+
+.mybtn1 {
+    background: linear-gradient(orange, purple) !important;
+    color: white !important;
+    border: 1px solid white !important;
+    font-weight: bolder;
+
+}
+
+.mybtn2 {
+    background: linear-gradient(orange, purple) !important;
+    color: white !important;
+    border: 1px solid white !important;
+    font-weight: bolder;
+
+}
+
+.mybtn1:hover {
+    cursor: pointer;
+    background: linear-gradient(purple, orange) !important;
+    transition: all .15s ease-in-out 0s;
+}
+
+.mybtn2:hover {
+    cursor: pointer;
+    background: linear-gradient(purple, orange) !important;
+    transition: all .15s ease-in-out 0s;
+}
+
+.img-rounded {
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+}
+
+.save {
+    border: 2px solid white !important;
+    border-radius: 10px;
+    height: 2rem !important;
+    width: 4rem !important;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+
+
+    background: linear-gradient(purple, orange) !important;
+    transition: all .15s ease-in-out 0s;
+    color: white;
+    font-weight: bold;
+}
+
+.save:hover {
+    cursor: pointer !important;
+    background: linear-gradient(orange, purple) !important;
+    transition: all .15s ease-in-out 0s !important;
+    color: white !important;
+
+}
+.mainfont{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Oooh Baby', cursive !important;
+}
+
+.hoverclass:hover {
+    cursor: pointer;
+}
+
+.like {
+    border: 2px solid white !important;
+    border-radius: 10px;
+    height: 2rem !important;
+    width: 4.5rem !important;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+    text-align: center !important;
+    cursor: pointer;
+    background: linear-gradient(orange, purple) !important;
+    transition: all .15s ease-in-out 0s;
+    color: white;
+    font-weight: bold;
+}
+
+.like:hover {
+    cursor: pointer !important;
+    background: linear-gradient(purple, orange) !important;
+    transition: all .15s ease-in-out 0s !important;
+    color: white !important;
+
+}
+
+.carouseledited {
+    max-height: 65vh !important;
+    border-radius: 25%;
+}
+
+.banner1 {
+
+    border-radius: 25%;
+    height: 9rem;
+    width: 15rem;
+    background-image: url("images/thumbnail1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner2 {
+    border-radius: 25%;
+    height: 9rem;
+    width: 15rem;
+    background-image: url("images/thumbnail2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner3 {
+    border-radius: 25%;
+    height: 9rem;
+    width: 15rem;
+    background-image: url("images/thumnail3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner4 {
+    border-radius: 25%;
+    height: 9rem;
+    width: 15rem;
+    background-image: url("images/thumnail4.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+
+/*styling for scroll*/
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 1rem;
+
+    /* width of the entire scrollbar */
+    transition: all .15s ease-in-out 0s;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(15, 11, 5);
+    /* color of the tracking area */
+    transition: all .15s ease-in-out 0s;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(purple, orange) !important;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid rgb(192, 187, 177);
+    /* creates padding around scroll thumb */
+    transition: all .15s ease-in-out 0s;
+}
+
+/*scroll for mozilla firefox*/
+body {
+
+    scrollbar-width: 1rem;
+    /* "auto" or "thin" */
+    scrollbar-color: rgb(255, 0, 43) rgb(172, 167, 158);
+    /* scroll thumb and track */
+    transition: all .15s ease-in-out 0s;
+}
+
+.socialmediasection {
+    position: fixed;
+    height: 5rem;
+    width: 5rem;
+    bottom: 0;
+    right: 0;
+    bottom: 5px solid red;
+    border-radius: 50%;
+    padding: 0.25rem;
+    text-align: center;
+    background-color: black;
+    color: yellow;
+    padding-top: 1rem;
+}
+
+.connectme {
+    position: absolute;
+    top: -23rem;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+
+}
+
+.myfooter {
+    --bs-gutter-x: 0rem !important;
+}
+
+.countercolor {
+    background: transparent;
+
+}
+
+.countercolor:hover {
+    background: transparent !important;
+}
+
+.textdecorationnone {
+    text-decoration: none !important;
+}
+
+
+
+/******************************************************************************************************/
+
+
+/*signup page css*/
+.mymarginsignup {
+    margin-top: 20vh;
+}
+
+.loginimage2 {
+    height: 20vh;
+    width: 50vw;
+    background-image: url("images/loginbanner2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.signupbtn{
+    background: linear-gradient(orange,purple);
+    border: none;
+    color: white;
+}
+.signupbtn:hover{
+    background: linear-gradient(purple,orange);
+    border: none;
+    color: white;
+}
+
+/******************************************************************************************************/
+  /*creators page*/
+  .creatorsbanner{
+    border-radius: 25% !important;
+    height: 9rem!important;
+    width: 15rem!important;
+    
+    
+  }
+  .edittt{
+    margin-left: 0!important;
+  }
+  .creatormynav{
+    background: linear-gradient(orange,purple);
+  }
+  .creatornavmy{
+    background: linear-gradient(purple,orange);
+
+  }
+  

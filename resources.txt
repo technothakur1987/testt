@@ -1,0 +1,31 @@
+index.html--
+1.There a main page with alert on top with changing colors fonts animtion
+2.there is a bright navbar using two buttons,one for sign up and other for login
+  (creators adnd brands )
+3 slider is used with some conetent ..
+4.there is a countet intialized also  with footer
+5.botstrap5 is used to make it responsive .
+6.there is connect me (social media ) which can be initialized also ..
+
+
+sign up-- consistes of two sectiop one for the animnated logo with a iframe 
+          video and second section have a form asking for sign up name , email
+          , password and check box for brand and creators and then submit btn.
+        
+login---- consists of two section one for brands and others for creatiors with
+          a bg image at the end
+          Each section consists of a form asking for some credentials required 
+          for login.
+          FOR BRANDS-FOR BRANDS THERE IS A CUSTOM NAVBAR WITH OPTION TO UPLOAD ADV
+                     WITH LOGO AND BUTTON TO EDIT AND SAVE
+                     THREE ACCORSIANS HAVE BEEN UESD WITH CUSTOM CLASSES FOR PROFILE 
+                     ,HIRING,AND SUBMISSIONS.WITH SOKME WORK FROM OTHER CREATORS..
+          FOR CREATORS: FOR CREATORS , THERE IS A CUATOME NAVBAR WITH OPTION TO UP-LOAD PROJECTS
+                     WITH LOGO AND BUTTONS TO EDIT AND SAVE
+                     THREE ACCORDIANS HAVE BEEN USED WITH CUSTOM CLASSES FOR PROFILE , 
+                     PROJECTS AND REPORTS WITH SOME OTHERS ADV FROM OTHER BRANDS.THEY CAN 
+                     APPLY TO BRANDS ON CLICKING THE BUTTON FROM IFRAME VIDEO USD..           
+
+
+          
+          
